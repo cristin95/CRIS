@@ -19,7 +19,7 @@ print(df.columns)
 # Borrar los datos nulos
 df = df.dropna()
 
-# Pivotear el DataFrame
+# Pivotear el DataFrame bdcjhds
 df_pivot = df.pivot(index='year', columns='country', values='population')
 
 # Seleccionar ciertos países para simplificar el gráfico
